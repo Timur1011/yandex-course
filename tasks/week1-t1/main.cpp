@@ -1,26 +1,15 @@
-/*
-Author: vpetrigo
-Task:
-
-Белочки и орешки - 1
-N белочек нашли K орешков и решили разделить их поровну. Определите, сколько орешков достанется каждой белочке.
-Формат входных данных
-На вход дается два целых положительных числа N и K, каждое из которых не превышает 10000.
-
-*/
-
-#include <iostream>
-
-using namespace std;
-
-int main() {
-    int n, k;
-
-    cin >> n >> k;
-
-    if (n) {
-        cout << k / n << endl;
-    }
-
-    return 0;
+#include <iostream> 
+ 
+using namespace std; 
+ 
+int main() { 
+ int n, k; 
+ 
+ cin В» n В» k; 
+ 
+ if (n) { 
+ cout В« k / n В« endl; 
+ } 
+ 
+ return 0; 
 }
